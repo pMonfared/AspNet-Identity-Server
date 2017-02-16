@@ -1,0 +1,20 @@
+﻿@model LoggedOutViewModel
+
+<div class="page-header">
+    <h1>
+        خروج
+        <small>شما خارج شدید</small>
+    </h1>
+
+    @if (Model.PostLogoutRedirectUri != null)
+    {
+        <div>
+            برای برگشت به <span>@Model.ClientName</span> لطفا <a href="@Model.PostLogoutRedirectUri">اینجا را کلیک کنید</a>
+        </div>
+    }
+
+    @if (Model.SignOutIframeUrl != null)
+    {
+        <iframe style="display:none" width="0" height="0" class="signout" src="@Model.SignOutIframeUrl"></iframe>
+    }
+</div>

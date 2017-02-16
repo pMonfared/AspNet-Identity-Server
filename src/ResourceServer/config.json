@@ -1,0 +1,6 @@
+﻿{
+  "Production": {
+    "SqliteConnectionString": "dataeventrecords.sqlite",
+    "KeyStoreFolderWhichIsBacked": "Keys"
+  }
+}
