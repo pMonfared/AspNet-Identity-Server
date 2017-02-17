@@ -32,6 +32,8 @@ Project("{8BB2217D-0F2D-49D1-97BC-3654ED321F3B}") = "ResourceFileServer", "src\R
 EndProject
 Project("{8BB2217D-0F2D-49D1-97BC-3654ED321F3B}") = "ResourceServer", "src\ResourceServer\ResourceServer.xproj", "{27CE53A6-EEEF-4CC8-A463-6915A5F3AFEA}"
 EndProject
+Project("{8BB2217D-0F2D-49D1-97BC-3654ED321F3B}") = "ResourceWithIdentityServerWithClient", "src\ResourceWithIdentityServerWithClient\ResourceWithIdentityServerWithClient.xproj", "{37214DB4-F4B3-44A9-ABAD-1F0D63087994}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -78,6 +80,10 @@ Global
 		{27CE53A6-EEEF-4CC8-A463-6915A5F3AFEA}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{27CE53A6-EEEF-4CC8-A463-6915A5F3AFEA}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{27CE53A6-EEEF-4CC8-A463-6915A5F3AFEA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{37214DB4-F4B3-44A9-ABAD-1F0D63087994}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{37214DB4-F4B3-44A9-ABAD-1F0D63087994}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{37214DB4-F4B3-44A9-ABAD-1F0D63087994}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{37214DB4-F4B3-44A9-ABAD-1F0D63087994}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -93,5 +99,6 @@ Global
 		{1C83BAC6-1A38-4261-8BE4-7B0FC9A286B8} = {7F5327A5-3F27-4820-9E8D-F773088C5EE3}
 		{3F42D8EE-5E25-443D-8EDD-FA950E63A1D3} = {7F5327A5-3F27-4820-9E8D-F773088C5EE3}
 		{27CE53A6-EEEF-4CC8-A463-6915A5F3AFEA} = {7F5327A5-3F27-4820-9E8D-F773088C5EE3}
+		{37214DB4-F4B3-44A9-ABAD-1F0D63087994} = {7F5327A5-3F27-4820-9E8D-F773088C5EE3}
 	EndGlobalSection
 EndGlobal

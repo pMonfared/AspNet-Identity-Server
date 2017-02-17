@@ -104,9 +104,6 @@ namespace IdentityServerWithAspNetIdentitySqlite
         {
             loggerFactory.AddDbLogger(serviceProvider: app.ApplicationServices, minLevel: LogLevel.Warning);
 
-            app.UseExceptionHandler("/error/index/500");
-            app.UseStatusCodePagesWithReExecute("/error/index/{0}");
-
             if (env.IsDevelopment())
             {
                 app.UseDeveloperExceptionPage();
@@ -114,7 +111,8 @@ namespace IdentityServerWithAspNetIdentitySqlite
             }
             else
             {
-                app.UseExceptionHandler("/Home/Error");
+                app.UseExceptionHandler("/error/index/500");
+                app.UseStatusCodePagesWithReExecute("/error/index/{0}");
             }
 
             app.UseStaticFiles();
